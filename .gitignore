@@ -1,0 +1,12 @@
+# Yarn-related files
+.yarn/*
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+yarn-error.log
+
+# IDE
+.idea
+
+# Node Modules
+node_modules

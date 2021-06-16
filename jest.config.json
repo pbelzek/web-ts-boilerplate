@@ -1,0 +1,19 @@
+{
+  "roots": ["<rootDir>/src"],
+  "moduleFileExtensions": [
+    "js", "jsx", "ts", "tsx"
+  ],
+  "collectCoverageFrom": [
+    "src/**/*.{ts,tsx,js,jsx}",
+    "!**/node_modules/**"
+  ],
+  "transform": {
+    "^.+\\.tsx?$": "ts-jest"
+  },
+  "setupFilesAfterEnv": [
+    "@testing-library/jest-dom/extend-expect"
+  ],
+  "moduleNameMapper": {
+    "\\.(css|scss|less|otf|jpg|png|svg|webp|woff|woff2)$": "<rootDir>/__mocks__/empty-mock.ts"
+  }
+}
