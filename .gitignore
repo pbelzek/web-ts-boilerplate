@@ -7,6 +7,7 @@ yarn-error.log
 
 # IDE
 .idea
+.vscode
 
 # Node Modules
 node_modules
